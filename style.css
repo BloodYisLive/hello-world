@@ -1,0 +1,139 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/*Nav Bar*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+  padding-top: 37px;
+  width: 300px;
+}
+.navbar-nav li
+{
+    padding: 0 10;
+}
+.navbar-nav li a
+{
+   list-style: none;
+   margin: 10px;
+   float: left;
+}
+#nav-bar ul li a:hover{
+  color: #A0522D!important;
+}
+.navbar{
+  padding: 60px!important;
+  background: #000;
+}
+.navbar-toggler{
+  border: none!important;
+  color:rgb(218, 165, 32)!important;
+}
+.nav-link
+{
+    color: rgb(218, 165, 32)!important;
+    padding-left: 100px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Playfair Display SC', serif;
+}
+.navbar-brand{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+.owl-demo .item .shadow-effect img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*About*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50;
+    color: rgb(185, 185, 185);
+    background-color: black;
+}
+.Read-more{
+    color: rgb(218, 165, 32)!important;
+}
+/*Main Text*/
+.main-text{
+    color: rgb(218, 165, 32)!important;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    text-align: center;
+}
+/*Button*/
+.btn-contact{
+  display: flex;
+  justify-content: center;
+}
+a.contact{
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #000;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  font-family: 'Playfair Display SC', serif;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  transition: all 0.2s;
+}
+a.contact:hover{
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  border: 0.1em solid #000;
+}
+@media all and (max-width:30em){
+  a.contact{
+    display: block;
+    margin:0.4em auto;
+  }
+}
+#service-area{
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .circle{
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  align-items: center;
+}
+.content a{
+  color: #DAA520;
+}
+.content a:hover{
+  text-decoration: none;
+  color: #A0522D;
+}
+.content p{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.content img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
